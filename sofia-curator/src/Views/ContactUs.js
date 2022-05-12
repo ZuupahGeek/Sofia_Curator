@@ -1,11 +1,11 @@
-import React from 'react'
-import './_ContactUs.scss'
+import React from "react";
 
+const Contact = () => {
+return (
+	<div className="contact">
+	<h1>GeeksforGeeks Contact us</h1>
+	</div>
+);
+};
 
-function ContactUs() {
-  return (
-    <div className='ContactUs'>ContactUs</div>
-  )
-}
-
-export default ContactUs;
+export default Contact;
