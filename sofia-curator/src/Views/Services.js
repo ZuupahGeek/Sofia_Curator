@@ -2,32 +2,25 @@ import React from "react";
 
 export const Services = () => {
 return (
-	<div className="services">
+	<div className="services container">
 	<h1>GeeksforGeeks Services</h1>
 	</div>
 );
 };
 
-export const ServicesOne = () => {
+export const Curator = () => {
 return (
-	<div className="services">
-	<h1>GeeksforGeeks Service1</h1>
+	<div className="services container">
+	<h1>Curator shit, bitches!</h1>
 	</div>
 );
 };
 
-export const ServicesTwo = () => {
+export const Consultant = () => {
 return (
-	<div className="services">
-	<h1>GeeksforGeeks Service2</h1>
+	<div className="services container">
+	<h1>Konsult också, föfanken!</h1>
 	</div>
 );
 };
 
-export const ServicesThree = () => {
-return (
-	<div className="services">
-	<h1>GeeksforGeeks Service3</h1>
-	</div>
-);
-};

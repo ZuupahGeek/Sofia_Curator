@@ -8,3 +8,47 @@
 
 }
 
+
+
+
+
+@media only screen and (min-width: 768px) {
+  .sidebarVisible {
+    display: block;
+  }
+
+  .navbarVisible {
+    display: none;
+  }
+
+}
+
+
+
+// Tiny phones
+@media only screen and (min-width: 2px) {
+  .sidebarVisible {
+    display: block;
+  }
+  .navbarVisible {
+    display: none;
+  }
+
+
+} // End of Tiny Phones Query
+
+
+// Desktops and larger
+@media only screen and (min-width: 992px) {
+
+
+
+  .sidebarVisible {
+    display: none;
+  }
+
+  .navbarVisible {
+    display: block;
+  }
+  
+  } //End of Desktop Query

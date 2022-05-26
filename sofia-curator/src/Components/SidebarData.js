@@ -16,7 +16,7 @@ export const SidebarData = [
 },
 {
 	title: "Min Konst",
-	path: "/events",
+	path: "/my-art",
 	icon: <FaIcons.FaEnvelopeOpenText />,
 
 	iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -32,13 +32,13 @@ export const SidebarData = [
 	subNav: [
 	{
 		title: "Curator",
-		path: "/services/services1",
+		path: "/services/curator",
 		icon: <IoIcons.IoIosPaper />,
 		cName: "sub-nav",
 	},
 	{
 		title: "Konsult",
-		path: "/services/services2",
+		path: "/services/consultant",
 		icon: <IoIcons.IoIosPaper />,
 		cName: "sub-nav",
 	},
@@ -50,9 +50,5 @@ export const SidebarData = [
 	icon: <FaIcons.FaPhone />,
 },
 
-{
-	title: "Support",
-	path: "/support",
-	icon: <IoIcons.IoMdHelpCircle />,
-},
+
 ];
