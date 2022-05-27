@@ -45,11 +45,16 @@
 
 
   .navbar {
-    border: 1px solid black;
+    // border: 1px solid black;
     padding: 1rem 0 1rem 0;
+    margin-bottom: 2rem;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
+  }
+  .navbar-logo img {
+    margin-top: 2rem;
+    width: 10rem;
   }
   .nav-link {
     text-decoration: none;

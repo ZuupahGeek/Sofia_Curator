@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './_Navbar.scss'
+import Image from '../Assets/Images/smakCuratingLogo.png'
 
 const Navbar = () => {
   return (
     <div className='navbar container'>
-      <div>
-        <h1>Logo</h1>
+      <div className='navbar-logo'>
+        <Link to='/'><img src={Image} alt="" /></Link> 
       </div>
       <div className='links'>
         <Link className='nav-link' to="/about-us">Om Mig</Link>

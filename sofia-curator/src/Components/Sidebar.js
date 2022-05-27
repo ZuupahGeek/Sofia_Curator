@@ -6,12 +6,15 @@ import * as AiIcons from "react-icons/ai";
 import { SidebarData } from "./SidebarData";
 import SubMenu from "./SubMenu";
 import { IconContext } from "react-icons/lib";
+import Logo from '../Assets/Images/smakCuratingLogo.png'
+import './_Sidebar.scss'
 
 const Nav = styled.div`
-background: #15171c;
+background: #E2D4C7;
+margin: 0 2rem 0 2rem;
 height: 80px;
 display: flex;
-justify-content: flex-start;
+justify-content: space-between;
 align-items: center;
 `;
 
@@ -25,14 +28,14 @@ align-items: center;
 `;
 
 const SidebarNav = styled.nav`
-background: #15171c;
+background: #B2987F;
 width: 250px;
 height: 100vh;
 display: flex;
 justify-content: center;
 position: fixed;
-top: 0;
-left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
+top: -2rem;
+right: ${({ sidebar }) => (sidebar ? "-2rem" : "-100%")};
 transition: 350ms;
 z-index: 10;
 `;
@@ -48,18 +51,12 @@ const showSidebar = () => setSidebar(!sidebar);
 
 return (
 	<>
-	<IconContext.Provider value={{ color: "#fff" }}>
+	<IconContext.Provider value={{ color: "#000" }}>
 		<Nav>
+		<img className="logo" src={Logo} alt="" />
 		<NavIcon to="#">
 			<FaIcons.FaBars onClick={showSidebar} />
 		</NavIcon>
-		<h1
-			style={{ textAlign: "center",
-					marginLeft: "200px",
-					color: "green" }}
-		>
-			GeeksforGeeks
-		</h1>
 		</Nav>
 		<SidebarNav sidebar={sidebar}>
 		<SidebarWrap>

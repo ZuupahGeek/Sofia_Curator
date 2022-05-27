@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 27rem;
     flex-direction: column;
 }
 .contact-page h3 {
@@ -45,10 +45,16 @@
     border: 1px solid $skrutt-green-light;
     color: $skrutt-green-dark;
 }
+.contact-form input::placeholder {
+    color: $skrutt-tan-bg;
+}
+.contact-form textarea::placeholder {
+    color: $skrutt-tan-bg;
+}
 .form-btn {
     border: 1px solid $skrutt-green-light;
     width: 6rem;
     height: 3rem;
     border-radius: 10px;
-    color: $skrutt-green-dark;
+    color: $skrutt-tan-bg;
 }
