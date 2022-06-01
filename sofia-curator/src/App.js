@@ -29,7 +29,7 @@ function App() {
           <Route path="/services/consultant" element={<Consultant />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/my-art" element={<MyArt />} /><Route path="/support" element={<Support />} />
-          <Route path="/#" element={<PageNotFound />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
         
       

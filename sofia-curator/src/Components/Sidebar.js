@@ -11,7 +11,7 @@ import './_Sidebar.scss'
 
 const Nav = styled.div`
 background: #E2D4C7;
-margin: 0 2rem 0 2rem;
+padding: 0 2rem 0 2rem;
 height: 80px;
 display: flex;
 justify-content: space-between;
@@ -51,9 +51,9 @@ const showSidebar = () => setSidebar(!sidebar);
 
 return (
 	<>
-	<IconContext.Provider value={{ color: "#000" }}>
+	<IconContext.Provider value={{ color: "#fff" }}>
 		<Nav>
-		<img className="logo" src={Logo} alt="" />
+		<Link to='/'><img className="logo" src={Logo} alt="" /></Link>
 		<NavIcon to="#">
 			<FaIcons.FaBars onClick={showSidebar} />
 		</NavIcon>

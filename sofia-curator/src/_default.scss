@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+// font-family: 'Righteous', cursive;
+
 // Colors
 $skrutt-green-dark: #003431;
 $skrutt-green-light: #B4CAC8;
@@ -5,9 +8,54 @@ $skrutt-tan-light: #E2D4C7;
 $skrutt-tan-dark: #B2987F;
 $skrutt-tan-bg: #352e27;
 
-.container {
-  margin-left: 5.5rem;
-  margin-right: 5.5rem;
+// färgkoder: #003431, #B4CAC8, #B2987F, #E2D4C7
+
+
+// Media Queries
+
+// @media only screen and (min-width: 1200px) {
+// }
+// @media only screen and (min-width: 768px) {
+// }
+// @media only screen and (min-width: 1px) {
+// }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
+
+
+
+
+
+
 // färgkoder: #003431, #B4CAC8, #B2987F, #E2D4C7
+
+
+
+@media only screen and (min-width: 2px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+
+  .container {
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+
+  }
+}
