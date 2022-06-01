@@ -1,4 +1,6 @@
 @import '_default.scss';
+
+
 html, body {
   padding: 0;
   margin: 0;
@@ -13,27 +15,7 @@ html, body {
 
 
 
-@media only screen and (min-width: 768px) {
-  .App {
 
-    background-color: white;
-    min-height: 150vh;
-    margin-left: 8rem; 
-    margin-right: 8rem; 
-    
-    
-  
-  }
-
-  .sidebarVisible {
-    display: block;
-  }
-
-  .navbarVisible {
-    display: none;
-  }
-
-}
 
 
 
@@ -59,6 +41,29 @@ html, body {
 
 
 } // End of Tiny Phones Query
+
+
+@media only screen and (min-width: 768px) {
+  .App {
+
+    background-color: white;
+    min-height: 150vh;
+    margin-left: 8rem; 
+    margin-right: 8rem; 
+    
+    
+  
+  }
+
+  .sidebarVisible {
+    display: block;
+  }
+
+  .navbarVisible {
+    display: none;
+  }
+
+}
 
 
 // Desktops and larger

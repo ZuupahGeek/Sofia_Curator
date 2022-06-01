@@ -19,23 +19,25 @@ import Artwork16 from '../Assets/Images/Art/ArtWork (16).jpg';
 
 export const MyArt = () => {
 return (
-	<div className="my-art-page container">
-	<img src={Artwork1} alt="" />
-	<img src={Artwork2} alt="" />
-	<img src={Artwork3} alt="" />
-	<img src={Artwork4} alt="" />
-	<img src={Artwork5} alt="" />
-	<img src={Artwork6} alt="" />
-	<img src={Artwork7} alt="" />
-	<img src={Artwork8} alt="" />
-	<img src={Artwork9} alt="" />
-	<img src={Artwork10} alt="" />
-	<img src={Artwork11} alt="" />
-	<img src={Artwork12} alt="" />
-	<img src={Artwork13} alt="" />
-	<img src={Artwork14} alt="" />
-	<img src={Artwork15} alt="" />
-	<img src={Artwork16} alt="" />
+	<div className="align-art">
+		<div className="my-art-page">
+			<img src={Artwork1} alt="" />
+			<img src={Artwork2} alt="" />
+			<img src={Artwork3} alt="" />
+			<img src={Artwork4} alt="" />
+			<img src={Artwork5} alt="" />
+			<img src={Artwork6} alt="" />
+			<img src={Artwork7} alt="" />
+			<img src={Artwork8} alt="" />
+			<img src={Artwork9} alt="" />
+			<img src={Artwork10} alt="" />
+			<img src={Artwork11} alt="" />
+			<img src={Artwork12} alt="" />
+			<img src={Artwork13} alt="" />
+			<img src={Artwork14} alt="" />
+			<img src={Artwork15} alt="" />
+			<img src={Artwork16} alt="" />
+		</div>
 	</div>
 );
 };

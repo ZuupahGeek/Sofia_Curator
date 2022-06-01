@@ -10,7 +10,7 @@ import image1 from '../Assets/Images/SofiaHomePageSlider.jpg';
 const CarouselComponent = () => {
   return (
     <div className='CarouselComponent'>
-        <AliceCarousel autoPlay="true" disableButtonsControls infinite autoPlayInterval="3000">
+        <AliceCarousel autoPlay="true" disableButtonsControls infinite autoPlayInterval="30000000">
             <div className='slider-pair'>
                 <img src={image1} alt="" className="sliderimg"/>
                 <div className='sliderimg bg-faded-tan'>

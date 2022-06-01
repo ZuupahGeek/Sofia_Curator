@@ -1,11 +1,31 @@
 @import '../default';
 
+
+
 .my-art-page {
     padding: 3rem 0 4rem 0;
 
     img {
         width: 20rem;
-        margin: 1.1rem;
+        margin: 1.4rem;
         border: 2px solid $skrutt-tan-light;
     }
 }
+
+
+@media only screen and (min-width: 992px) {
+    img {
+
+        margin: 1.4rem;
+
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    img {
+        width: 20rem;
+        margin: 1.4rem;
+
+    }
+    }
